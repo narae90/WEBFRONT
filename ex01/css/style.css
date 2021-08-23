@@ -10,7 +10,21 @@ h1 {
 }
 
 
-main{
-    
+/*가상 선택자 : 반응 선택자*/
+/*:link 상태와 :visited상테 -> A Tag Only*/
 
-}
+/*아직 미방문인 링크의 상태*/
+a:link{color: aqua;}
+
+
+/*이미 방문인 링크의 상태*/
+a:visited{color: blue;}
+
+/**마우스가 올라왔을 때의 상태*/
+a:hover{color: black;}
+
+/**마우스가 클릭된 상태*/
+a:active{color: red;}
+
+
+
