@@ -10,9 +10,22 @@
         /* 속성 선택자 연습*/
         /*type 속성이 있는 모든 태그 선택*/
         *[type]{background-color: rgb(199, 199, 199);}
+
         input[type=text]{background-color: lightgreen;}
         input[type=password]{background-color: lightblue;}
-        
+
+
+        /*상태 선택자 : 입력폼의 상테에 따른 선택*/
+
+        /*입력 가능한 input 태그 선택*/
+        input:enabled{background-color: white;}
+
+        /*입력 불가능한 input 태그 선택*/
+        input:disabled{background-color: gray;}
+
+        /*초점이 맞춰진 상태의 input태그 선택*/
+        input:focus{background-color: orange;}
+
 
 
     </style>
@@ -33,6 +46,9 @@
 
         <label for="password">비밀번호</label>
         <input type="password" name="password" id="password" placeholder="비밀번호를 입력해 주세요." /> <br />
+        <label for="code">추천 코드</label>
+        <input type="text" name="code" id="code" disabled> <br />
+
         <!--사용자 입력은 아니고 폼 처리시 반드시 필요한 값 : 개발자 세팅-->
         <input type="hidden" name="secret_code" value="secret" />
         <label for="gender">성별</label> 
