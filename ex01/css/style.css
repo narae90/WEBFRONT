@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*외부 css를 불러 들인다 */
+@import "main.css";
+
+h1 {
+    color:rgb(253, 253, 253);
+    background-color: rgb(16, 114, 81);
+
+}
+
+
+main{
+    
+
+}

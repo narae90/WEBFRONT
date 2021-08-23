@@ -5,6 +5,22 @@
 	<meta http-equiv="Content-Type" content="text/html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bit Lounge 건강음료</title>
+
+  <style>
+    /* id 셀렉터 : #아이디*/
+    #green {color: green;}
+    #blue{color: blue;}
+    #purple{color: purple;}
+    #red{color:red}
+
+    /* class 셀렉터 : .클래스명 */
+    
+    .beverage.green{ background-color: rgb(210, 253, 146);}
+    .beverage.blue{ background-color: rgb(125, 187, 245);}
+    .beverage.purple{ background-color: rgb(244, 117, 255);}
+    .beverage.red{ background-color: rgb(255, 143, 143);}
+
+  </style>
 </head>
 <body>
 
@@ -13,7 +29,7 @@
   </header>
   
   <nav>
-    <ul>
+    <ul class="menu">
       <li><a href="#green">Green</a></li>
       <li><a href="#blue">Blue</a></li>
       <li><a href="#purple">Purple</a></li>
@@ -22,8 +38,12 @@
   </nav>
 
   <article>
+    <div class="seller">
+      <img src="/ex01/images/Penguins.jpg" alt="펭귄" />
+    </div>
 
-    <section id="green">
+
+    <section id="green" class="green beverage">
       <div>
         <h2>Green Tea Cooler</h2>
         <img src="./images/green.jpg" alt="">
@@ -34,7 +54,7 @@
       </div>
     </section>
 
-  <section id="blue">
+  <section id="blue" class="blue beverage">
     <div>
       <h2>Raspberry Ice Concentration</h2>
       <img src="./images/lightblue.jpg" alt="">
@@ -45,7 +65,7 @@
     </div>
   </section>
 
-  <section id="purple">
+  <section id="purple" class="purple beverage">
     <div>
       <h2>Blueberry Bliss Elixir</h2>
       <img src="./images/blue.jpg" alt="">
@@ -56,7 +76,7 @@
     </div>
   </section>
 
-  <section id="red">
+  <section id="red" class="red beverage">
     <div>
       <h2>Cranberry Antioxidant Blast</h2>
       <img src="./images/red.jpg" alt="">
