@@ -84,10 +84,11 @@
         border-top-right-radius: 30px;
         /* 값이 4개 : 위-왼쪽 위-오른쪽 아래-오른쪽 아래-왼쪽*/
         border-radius: 10px 20px 30px 40px;
-
         border-radius: 50%;
-
       }
+
+
+
 
       .beverage h2 {
         font-size: 1.5em; /*1.5em = 150% = 24px */
@@ -123,7 +124,39 @@
         text-decoration: underline; /*줄로 꾸미기*/
       }
 
+      
+      .seller img {
+        /* 공간 점유 방식을 변경
+            none : 공간 점유 하지 않음
+            block : 공간 점유 방식을 block으로 
+            inline : 공간 점유 방식을 inline으로 표시 */
+        /* visivility 속성
+            visible : 표시
+            hidden : 표시하지 않음 (꽁간은 점유) */
+        /* visibility: hidden; */
+        
+      }
+    
 
+      /*backgroind : 배경을 성정하는 속성*/
+      
+      body {
+        /*
+        background-image: url("./images/Landscape.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: 100%;
+        */
+
+      /* 축약형 : 배경화면 속성을 일괄 설정 */
+      /* background: url("./images/Landscape.jpg") 
+       bottom / 100% no-repeat fixed lightgray; */
+      /* -image -position / -size -repeat -attachment -color */
+      }
+
+
+    
 
 
     </style>
