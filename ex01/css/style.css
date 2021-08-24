@@ -3,8 +3,13 @@
 @import "main.css";
 
 h1 {
-    color: red;
-    background-color: greenyellow;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 143, 0);
+
+    /* 폰트 설정 
+    : 후보 글꼴을 , 로 나열
+    : 포느가 없을 경우 대비, 가장 마지막에 일반 글꼴을 명시 */
+    font-family: 궁서체, 신면조, serif;
 }
 
 /* 가상 선택자: 반응 선택자 */
