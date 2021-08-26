@@ -112,10 +112,8 @@ for (let value of arr){
 }
 
 //? for ...of는 순회 객체(배열 등) 에서만 사용
-/* 에러
-for(let value of obj){
-    console.log(value);
-} -> Error : obj는 순회객체 아님 
-*/
+//* for(let value of obj){
+//*    console.log(value);
+//* } -> Error : obj는 순회객체 아님 
 
 //? 주의 : for ...in과 for ...of를 구분해서 사용
